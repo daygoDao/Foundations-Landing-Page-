@@ -7,7 +7,7 @@ main,
 .tier2,
 .tier3,
 .tier4 {
-    padding: 2% 8%;
+    padding: 3% 8%;
 }
 
 header,
@@ -92,6 +92,12 @@ main {
     color: #1f2937;
 }
 
+.tier3 span {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 600;
+}
+
 button {
     background-color: #3882f6;
     color: #f9faf8;
@@ -103,8 +109,20 @@ button {
 .tier4 {
     background-color: #3882f6;
     display: flex;
-    margin: 30px;
+    margin: 5% 8%;
     color: #f9faf8;
+}
+
+.t4-left h5,
+.t4-left p {
+    margin: 0;
+    width: 100%;
+    font-size: 16px;
+}
+
+.t4-right {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer {
@@ -113,4 +131,5 @@ footer {
     align-items: center;
     background-color: #1f2937;
     color: #f9faf8;
+    padding: 1%;
 }
